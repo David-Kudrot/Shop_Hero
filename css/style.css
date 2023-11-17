@@ -1,0 +1,127 @@
+
+.custom-navbar {
+  background-color: rgb(26, 24, 122) !important;
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 75%;
+}
+
+/* Adjust the width of the search box to fit the content */
+.input-group.w-25 {
+  width: auto; /* Or adjust the width as needed */
+}
+
+.custom-carousel {
+  background: linear-gradient(140deg, pink, white, rgb(63, 63, 201));
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+
+
+
+.col-sm-6 .card img{
+  width: 150px;
+}
+
+.carousel-img {
+  height: 80%;
+}
+
+/* mediaquery for all code responsive */
+
+@media (max-width: 768px) {
+  /* Center the content vertically and horizontally */
+
+  .custom-carousel {
+    max-height: 100%;
+  }
+
+  .banner-first-image{
+    margin: -20% 0 0 0;
+}
+
+/* .cat-item-img{
+  height: 100px;
+} */
+
+
+}
+
+
+.icon-item{
+  background-color: rgb(223, 221, 221);
+  border-radius: 10px;
+  width: 7rem;
+  padding-top: 1%;
+}
+
+.iphone-custom{
+  padding-top: 35%;
+}
+
+
+
+/* product part */
+.product{
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.airpod{
+  background-color: rgb(173, 194, 215);
+}
+
+.ipad{
+  width: 400px;height: 300px;
+}
+
+.macbook{
+  background-color: #EDEDED;
+}
+
+
+
+
+.banner-part-2{
+  background-color: rgb(149, 138, 212);
+}
+
+.banner-first-image{
+    padding: 0;
+    margin: 30% 0 0 -50%;
+}
+
+.sale-count{
+  color: rgb(37, 23, 123);
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-part{
+  background-color: rgb(14, 7, 27);
+  color: white;
+}
+
+.footer-content{
+  max-width: 70%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
